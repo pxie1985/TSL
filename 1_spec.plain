@@ -1,0 +1,126 @@
+
+
+# File
+  Size: 
+	Empty.	[single][property emptyfile]
+	Not Empty.
+
+  Number of occurnace within the file:
+	None.	[single][if !emptyfile] [property noOccurrences]
+	One.	[if !emptyfile]
+	Many.	[if !emptyfile]
+
+  Number of occurances within a line:
+	One.	[if !emptyfile && !noOccurrences]
+	Many.	[if !emptyfile && !noOccurrences][single]
+
+
+  Termindated by a newline:
+	True.	[if !emptyfile]
+	False.	[if !emptyfile][error]
+
+ Position of the pattern in the file:
+	First line.	[single][if !emptyfile && !noOccurrences]
+	Last line.	[single][if !emptyfile && !noOccurrences]
+	Any.	[if !emptyfile && !noOccurrences]
+
+# Filename
+  Presence of a file corresponding to the name:
+	Present.
+	Not Present. [error]
+
+# check if both e and k are available or neither e nor k is available
+Options Valid Check:
+	Both E and K available.	[error]
+	Neither E nor K avaialble.	[error]
+	Valid.	[property valid_option]
+
+
+-e:
+   Length of the pattern:
+	Empty.	[single][property emptyE]
+	One.	[single]
+	More than one.	[property patternlengthgt1E]
+	Longer than the file. [single] 
+
+   Presence of enclosing quotes:
+	Not enclosed.	[if !emptyE && valid_option][single]
+	Enclosed.	[if !emptyE && valid_option]
+	Incorrect.	[error]
+
+   Presence of blanks:
+	None.	[if !emptyE && valid_option]
+	One.	[if !emptyE && valid_option]
+	Many.	[if !emptyE && patternlengthgt1E && valid_option]
+
+   Presence of quotes within the patter:
+	None.	[if !emptyE && valid_option]
+	One.	[if !emptyE && valid_option]
+	Many.	[single][if !emptyE && valid_option]
+	
+
+  E repated times:
+	None. 	[if !emptyE && valid_option]
+	One.	[if !emptyE && valid_option][single]
+	Many. 	[if !emptyE && valid_option][single]
+	
+
+
+-k:
+   Length of the pattern:
+	Empty.	[single][property emptyK]
+	One.	[single]
+	More than one.	[property patternlengthgt1K]
+	Longer than the file. [single] 
+
+   Presence of enclosing quotes:
+	Not enclosed.	[if !emptyK && valid_option][single]
+	Enclosed.	[if !emptyK && valid_option]
+	Incorrect.	[error]
+
+   Presence of blanks:
+	None.	[if !emptyK && valid_option]
+	One.	[if !emptyK && valid_option]
+	Many.	[if !emptyK && patternlengthgt1K && valid_option]
+
+   Presence of quotes within the patter:
+	None.	[if !emptyK && valid_option]
+	One.	[if !emptyK && valid_option]
+	Many.	[single][if !emptyK && valid_option]
+	
+
+  K repated times:
+	None. 	[if !emptyK && valid_option]
+	One.	[if !emptyK && valid_option][single]
+	Many. 	[if !emptyK && valid_option][single]
+	
+
+
+
+#Applies case insensitive matching when used with "Keep Lines" and "Exclude Lines". This option takes no parameters.
+
+-i: 
+  Specified an option.	[error]
+  Used.		[valid_option][property insentiive]
+  Not Used	[valid_option]
+
+
+   
+
+
+-r: 
+   words.	[valid_option]
+   text.	[valid_option]
+   other.	[error]
+
+
+-d: 
+  NotInteger_0_TO_9.	[error]
+  None.
+  IsInterger_0_TO_9.
+  
+
+
+
+
+
