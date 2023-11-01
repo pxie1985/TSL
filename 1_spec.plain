@@ -45,7 +45,7 @@ Options Valid Check:
 
    Presence of enclosing quotes:
 	Not enclosed.	[if !emptyE && valid_option][single]
-	Enclosed.	[if !emptyE && valid_option]
+	Enclosed.	[if !emptyE && valid_option][single]
 	Incorrect.	[error]
 
    Presence of blanks:
@@ -55,7 +55,7 @@ Options Valid Check:
 
    Presence of quotes within the patter:
 	None.	[if !emptyE && valid_option]
-	One.	[if !emptyE && valid_option]
+	One.	[single][if !emptyE && valid_option]
 	Many.	[single][if !emptyE && valid_option]
 	
 
@@ -75,7 +75,7 @@ Options Valid Check:
 
    Presence of enclosing quotes:
 	Not enclosed.	[if !emptyK && valid_option][single]
-	Enclosed.	[if !emptyK && valid_option]
+	Enclosed.	[if !emptyK && valid_option][single]
 	Incorrect.	[error]
 
    Presence of blanks:
@@ -85,7 +85,7 @@ Options Valid Check:
 
    Presence of quotes within the patter:
 	None.	[if !emptyK && valid_option]
-	One.	[if !emptyK && valid_option]
+	One.	[single][if !emptyK && valid_option]
 	Many.	[single][if !emptyK && valid_option]
 	
 
@@ -96,15 +96,12 @@ Options Valid Check:
 	
 
 
-
 #Applies case insensitive matching when used with "Keep Lines" and "Exclude Lines". This option takes no parameters.
 
 -i: 
   Specified an option.	[error]
   Used.		[valid_option][property insentiive]
   Not Used	[valid_option]
-
-
    
 
 
@@ -117,7 +114,7 @@ Options Valid Check:
 -d: 
   NotInteger_0_TO_9.	[error]
   None.
-  IsInterger_0_TO_9.
+  IsInterger_0_TO_9.	[single]
   
 
 

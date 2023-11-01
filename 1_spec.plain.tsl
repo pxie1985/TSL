@@ -1,0 +1,960 @@
+
+Test Case 1  		<single>
+   Size :  Empty
+
+
+Test Case 2  		<single>
+   Number of occurnace within the file :  None
+
+
+Test Case 3  		<single>  (follows [if])
+   Number of occurances within a line :  Many
+
+
+Test Case 4  		<error>  (follows [if])
+   Termindated by a newline :  False
+
+
+Test Case 5  		<single>
+   Position of the pattern in the file :  First line
+
+
+Test Case 6  		<single>
+   Position of the pattern in the file :  Last line
+
+
+Test Case 7  		<error>
+   Presence of a file corresponding to the name :  Not Present
+
+
+Test Case 8  		<error>
+   Options Valid Check :  Both E and K available
+
+
+Test Case 9  		<error>
+   Options Valid Check :  Neither E nor K avaialble
+
+
+Test Case 10 		<single>
+   Length of the pattern :  Empty
+
+
+Test Case 11 		<single>
+   Length of the pattern :  One
+
+
+Test Case 12 		<single>
+   Length of the pattern :  Longer than the file
+
+
+Test Case 13 		<single>  (follows [if])
+   Presence of enclosing quotes :  Not enclosed
+
+
+Test Case 14 		<single>  (follows [if])
+   Presence of enclosing quotes :  Enclosed
+
+
+Test Case 15 		<error>
+   Presence of enclosing quotes :  Incorrect
+
+
+Test Case 16 		<single>
+   Presence of quotes within the patter :  One
+
+
+Test Case 17 		<single>
+   Presence of quotes within the patter :  Many
+
+
+Test Case 18 		<single>  (follows [if])
+   E repated times :  One
+
+
+Test Case 19 		<single>  (follows [if])
+   E repated times :  Many
+
+
+Test Case 20 		<single>
+   Length of the pattern :  Empty
+
+
+Test Case 21 		<single>
+   Length of the pattern :  One
+
+
+Test Case 22 		<single>
+   Length of the pattern :  Longer than the file
+
+
+Test Case 23 		<single>  (follows [if])
+   Presence of enclosing quotes :  Not enclosed
+
+
+Test Case 24 		<single>  (follows [if])
+   Presence of enclosing quotes :  Enclosed
+
+
+Test Case 25 		<error>
+   Presence of enclosing quotes :  Incorrect
+
+
+Test Case 26 		<single>
+   Presence of quotes within the patter :  One
+
+
+Test Case 27 		<single>
+   Presence of quotes within the patter :  Many
+
+
+Test Case 28 		<single>  (follows [if])
+   K repated times :  One
+
+
+Test Case 29 		<single>  (follows [if])
+   K repated times :  Many
+
+
+Test Case 30 		<error>
+   -i :  Specified an option
+
+
+Test Case 31 		<error>
+   -r :  other
+
+
+Test Case 32 		<error>
+   -d :  NotInteger_0_TO_9
+
+
+Test Case 33 		<single>
+   -d :  IsInterger_0_TO_9
+
+
+Test Case 34 		(Key = 2.2.1.1.3.1.3.3.0.1.1.1.3.0.1.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 35 		(Key = 2.2.1.1.3.1.3.3.0.1.1.1.3.0.1.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 36 		(Key = 2.2.1.1.3.1.3.3.0.1.1.1.3.0.2.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 37 		(Key = 2.2.1.1.3.1.3.3.0.1.1.1.3.0.2.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 38 		(Key = 2.2.1.1.3.1.3.3.0.1.1.1.3.0.3.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 39 		(Key = 2.2.1.1.3.1.3.3.0.1.1.1.3.0.3.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 40 		(Key = 2.2.1.1.3.1.3.3.0.2.1.1.3.0.1.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 41 		(Key = 2.2.1.1.3.1.3.3.0.2.1.1.3.0.1.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 42 		(Key = 2.2.1.1.3.1.3.3.0.2.1.1.3.0.2.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 43 		(Key = 2.2.1.1.3.1.3.3.0.2.1.1.3.0.2.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 44 		(Key = 2.2.1.1.3.1.3.3.0.2.1.1.3.0.3.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 45 		(Key = 2.2.1.1.3.1.3.3.0.2.1.1.3.0.3.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 46 		(Key = 2.2.1.1.3.1.3.3.0.3.1.1.3.0.1.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 47 		(Key = 2.2.1.1.3.1.3.3.0.3.1.1.3.0.1.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 48 		(Key = 2.2.1.1.3.1.3.3.0.3.1.1.3.0.2.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 49 		(Key = 2.2.1.1.3.1.3.3.0.3.1.1.3.0.2.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 50 		(Key = 2.2.1.1.3.1.3.3.0.3.1.1.3.0.3.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 51 		(Key = 2.2.1.1.3.1.3.3.0.3.1.1.3.0.3.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  One
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 52 		(Key = 2.3.1.1.3.1.3.3.0.1.1.1.3.0.1.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 53 		(Key = 2.3.1.1.3.1.3.3.0.1.1.1.3.0.1.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 54 		(Key = 2.3.1.1.3.1.3.3.0.1.1.1.3.0.2.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 55 		(Key = 2.3.1.1.3.1.3.3.0.1.1.1.3.0.2.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 56 		(Key = 2.3.1.1.3.1.3.3.0.1.1.1.3.0.3.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 57 		(Key = 2.3.1.1.3.1.3.3.0.1.1.1.3.0.3.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 58 		(Key = 2.3.1.1.3.1.3.3.0.2.1.1.3.0.1.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 59 		(Key = 2.3.1.1.3.1.3.3.0.2.1.1.3.0.1.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 60 		(Key = 2.3.1.1.3.1.3.3.0.2.1.1.3.0.2.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 61 		(Key = 2.3.1.1.3.1.3.3.0.2.1.1.3.0.2.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 62 		(Key = 2.3.1.1.3.1.3.3.0.2.1.1.3.0.3.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 63 		(Key = 2.3.1.1.3.1.3.3.0.2.1.1.3.0.3.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 64 		(Key = 2.3.1.1.3.1.3.3.0.3.1.1.3.0.1.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 65 		(Key = 2.3.1.1.3.1.3.3.0.3.1.1.3.0.1.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  None
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 66 		(Key = 2.3.1.1.3.1.3.3.0.3.1.1.3.0.2.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 67 		(Key = 2.3.1.1.3.1.3.3.0.3.1.1.3.0.2.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  One
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
+
+Test Case 68 		(Key = 2.3.1.1.3.1.3.3.0.3.1.1.3.0.3.1.1.2.1.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  words
+   -d                                           :  None
+
+
+Test Case 69 		(Key = 2.3.1.1.3.1.3.3.0.3.1.1.3.0.3.1.1.2.2.2.)
+   Size                                         :  Not Empty
+   Number of occurnace within the file          :  Many
+   Number of occurances within a line           :  One
+   Termindated by a newline                     :  True
+   Position of the pattern in the file          :  Any
+   Presence of a file corresponding to the name :  Present
+   Options Valid Check                          :  Valid
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   E repated times                              :  None
+   Length of the pattern                        :  More than one
+   Presence of enclosing quotes                 :  <n/a>
+   Presence of blanks                           :  Many
+   Presence of quotes within the patter         :  None
+   K repated times                              :  None
+   -i                                           :  Used
+   -r                                           :  text
+   -d                                           :  None
+
